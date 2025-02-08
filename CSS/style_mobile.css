@@ -102,23 +102,7 @@
         word-wrap: break-word;
         text-align: center;
     }
-      
-      /* Add a grey background color on mouse-over
-      .header-mobile a:hover {
-        background-color: #ddd;
-        color: black;
-      } */
-      
-      /* Style the active link (or home/logo) */
-      /* .active {
-        background-color: black;
-        color: white;
-        height: 90px;
-        width: 100%;
-      } */
 
-
-    /* __________________________________________ */
 
 
     h1{
@@ -177,12 +161,13 @@
         font-style: normal;
         font-family: Montserrat;
         font-weight: 700;
-        line-height: 23.40px;
+        line-height: 30px;
         word-wrap: break-word;
         margin-top: 50px;
         margin-bottom: 20px;
         letter-spacing: 0.96px;
         text-transform: uppercase;
+        text-align: center;
     }
     h3{
         color: #8BC43D;
@@ -243,11 +228,23 @@
         height: 300px;
     }
     .memb3{
-        height: 440px;
-        width: 200px
+        width: 100vw;
+        background-color: #8BC43D;
+        color: #2E2D2E;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        height: 190px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 0px;
     }
     .memb4{
         display: none;
+    }
+    .row-offer{
+        display: flex;
+        flex-direction: row;
     }
     .memb-desk{
         display: none;
@@ -359,6 +356,22 @@
     align-content: center;
     margin: 2px;
     }
+    .schedule-group2{
+        border: #2E2D2E 1px solid;  
+        width: 82px;
+        height: 24px;
+        font-size: 10px;
+        line-height: 10px;
+        font-weight: 700;
+    }
+    .schedule-group3{
+        width: 82px;
+        height: 24px;
+        font-weight: 600;
+        font-size: 10px;
+        letter-spacing: 0.1px;
+        border: 0px;
+    }
     .group-name{
     color: white;
     background-color: #2E2D2E;
@@ -366,11 +379,11 @@
     width: 98px;
     font-weight: 500;
     }
-    .teens{
+    .deti-size{
         font-size: 6px;
     }
-    .teens1{
-        line-height: 8px; 
+    .deti-height{
+        line-height: 9px; 
     }
     .circle{
         padding-top: 1px;
